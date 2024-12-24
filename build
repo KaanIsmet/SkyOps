@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# For GTK 4
+g++ main.cpp -o skyops `pkg-config --cflags --libs gtk4`
